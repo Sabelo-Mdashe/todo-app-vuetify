@@ -48,28 +48,7 @@
     data() {
       return {
         newTodo: '',
-        todos: [
-          {
-            id: 1,
-            title: 'Code',
-            done: false
-          },
-          {
-            id: 2,
-            title: 'Eat',
-            done: false
-          },
-          {
-            id: 3,
-            title: 'Sleep',
-            done: false
-          },
-          {
-            id: 4,
-            title: 'Repeat',
-            done: false
-          }
-        ]
+        todos: []
       }
     },
     methods: {
